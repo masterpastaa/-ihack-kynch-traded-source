@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="SDK\FN_Basic.cpp">
+      <Filter>game sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\FN_CoreUObject_functions.cpp">
+      <Filter>game sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\FN_Engine_functions.cpp">
+      <Filter>game sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\FN_FortniteGame_functions.cpp">
+      <Filter>game sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="Misc.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="scanner.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="vectors_3d_2d.cpp">
+      <Filter>vectors</Filter>
+    </ClCompile>
+    <ClCompile Include="secure_ssl.cpp">
+      <Filter>ssl_https</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="multitask.h" />
+    <ClInclude Include="encryption.hpp" />
+    <ClInclude Include="SDK\FN_Basic.hpp">
+      <Filter>game sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\FN_CoreUObject_classes.hpp">
+      <Filter>game sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\FN_CoreUObject_parameters.hpp">
+      <Filter>game sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\FN_CoreUObject_structs.hpp">
+      <Filter>game sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\FN_Engine_classes.hpp">
+      <Filter>game sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\FN_Engine_parameters.hpp">
+      <Filter>game sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\FN_Engine_structs.hpp">
+      <Filter>game sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\FN_FortniteGame_classes.hpp">
+      <Filter>game sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\FN_FortniteGame_parameters.hpp">
+      <Filter>game sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\FN_FortniteGame_structs.hpp">
+      <Filter>game sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="hkfunctions.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="prendering.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine_render.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="draw_skeletons.h">
+      <Filter>_esp</Filter>
+    </ClInclude>
+    <ClInclude Include="boxesdrawing.h">
+      <Filter>_esp</Filter>
+    </ClInclude>
+    <ClInclude Include="world_rendering.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="spoof_call.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="world.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="aimbot.h">
+      <Filter>aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="lws.h">
+      <Filter>lw_post</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="game sdk">
+      <UniqueIdentifier>{784facdd-01f9-4092-8b7d-6b4ac740c849}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine">
+      <UniqueIdentifier>{b9e43033-b8da-46cd-a7d4-099291553f75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_esp">
+      <UniqueIdentifier>{ce7fe19d-c0bf-4e2a-8fab-7fdd78932a49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World">
+      <UniqueIdentifier>{08c453bd-a208-4943-bb19-89190f271acf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assembly">
+      <UniqueIdentifier>{4d4fadc2-7d63-433b-946b-77651c11db68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{ce5d522f-b28a-425f-b17e-a2d1e087a1e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="aimbot">
+      <UniqueIdentifier>{4ecebf4e-4259-47e1-b41d-f89ceb9829ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lw_post">
+      <UniqueIdentifier>{5e61277a-f21d-491a-a696-64e6de1322d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="er_functions">
+      <UniqueIdentifier>{4e3aa5b3-27fc-42f2-93c2-8768a1d85929}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="er_functions\NewFilter1">
+      <UniqueIdentifier>{6cf4b97d-1e33-4afe-875c-17f6ad7c067f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vectors">
+      <UniqueIdentifier>{7c73bcb2-bd50-4d15-8f99-8b2642fddb79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="matrixes">
+      <UniqueIdentifier>{bbcbed6b-6aad-4ae7-966c-fa8287db240c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="matrixes\NewFilter1">
+      <UniqueIdentifier>{f1baea31-1051-4055-ada2-77280805b7cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="math">
+      <UniqueIdentifier>{a85052bc-4f40-41cd-8c65-8c6a6641ab38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="math\NewFilter1">
+      <UniqueIdentifier>{3c69f778-fb8c-4004-97bd-6ca14a26167a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dll_streaming">
+      <UniqueIdentifier>{671f4667-45cf-40af-bc27-bb759e273ea6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dll_streaming\NewFilter1">
+      <UniqueIdentifier>{49e4dc10-49d8-472e-948b-17c004b0b538}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lw_http">
+      <UniqueIdentifier>{4b611ee9-a138-4865-a345-8e9de97dd81d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lw_http\NewFilter1">
+      <UniqueIdentifier>{64079cba-04cb-4292-a75e-9cc25927d87a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ssl_https">
+      <UniqueIdentifier>{e6ec25db-2dec-45e7-8795-7656edfbff5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mapper">
+      <UniqueIdentifier>{444ce509-7f63-4302-ab83-bbc1d428cf4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mapper\NewFilter1">
+      <UniqueIdentifier>{1cd509f0-079c-444f-9271-42dfaa64ef19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="website_actions">
+      <UniqueIdentifier>{cd769f9c-4412-40b9-b2a0-bb10912adc7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="website_actions\panel">
+      <UniqueIdentifier>{1ad44a1d-533d-4ae8-bc6c-924e6a1cf7e6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="assembly.asm">
+      <Filter>assembly</Filter>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="login.php">
+      <Filter>website_actions</Filter>
+    </None>
+    <None Include="register.php">
+      <Filter>website_actions</Filter>
+    </None>
+    <None Include="news.php">
+      <Filter>website_actions\panel</Filter>
+    </None>
+    <None Include="subscriptions.php">
+      <Filter>website_actions\panel</Filter>
+    </None>
+    <None Include="loader.php">
+      <Filter>website_actions\panel</Filter>
+    </None>
+    <None Include="shop.php">
+      <Filter>website_actions\panel</Filter>
+    </None>
+  </ItemGroup>
+</Project>
